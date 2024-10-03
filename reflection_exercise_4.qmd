@@ -1,6 +1,6 @@
 ---
 title: "Estimating Respondents with Doctoral Degrees Using the 2022 ACS Data"
-author: "Group 34"
+author: "Group 38"
 date: "2024-10-03"
 format:
   pdf:
@@ -24,7 +24,7 @@ To access the 2022 ACS data:
     - `EDUCD`: Educational attainment detail.
 5. Download the `.csv.gz` file and decompress it using:
    ```bash
-   gunzip usa_00004.csv.gz
+   gunzip usa_00002.csv.gz
    ```
 
 ## **3. Overview of the Ratio Estimator Approach**
