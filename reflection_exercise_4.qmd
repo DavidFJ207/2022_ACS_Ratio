@@ -37,8 +37,11 @@ $$
 
 
 where:
+
 - The numerator is the number of respondents with a doctoral degree in each state.
+
 - The denominator is the total number of respondents in each state.
+
 - The known total for California is provided as 391,171.
 
 ## **4. Data Analysis**
@@ -107,8 +110,11 @@ ggplot(state_data, aes(x = total_count, y = estimated_total, label = STATEICP)) 
 ## **6. Observations and Explanation**
 
 The discrepancies between the estimated and actual total respondents in each state can be attributed to various factors:
+
 - **Sample Representation**: The proportion of respondents with doctoral degrees may not be consistent across states, leading to differences in estimates.
+
 - **Variation in Ratios**: States may have varying educational demographics that aren't captured accurately when using a single ratio.
+
 - **Size of the California Sample**: The estimation depends on the accuracy of the known respondent total in California, which may not generalize well across other states.
 
 ## **7. Conclusion**
