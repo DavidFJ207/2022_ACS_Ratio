@@ -16,7 +16,7 @@ This document aims to analyze the 2022 American Community Survey (ACS) dataset f
 
 To access the 2022 ACS data:
 
-1. Visit the [IPUMS we
+1. Visit the [IPUMS website]
 2. Register for an account if you haven't already.
 3. Once logged in, go to the [IPUMS USA](https://usa.ipums.org/usa/) section and select the 2022 ACS dataset.
 4. Add the following variables to your extract:
@@ -31,9 +31,10 @@ To access the 2022 ACS data:
 
 The ratio estimator is a technique commonly used to estimate the size of a population based on known sample characteristics. Here, we use the following formula to estimate the total respondents in a state:
 
-\[
+$$
 \text{Estimated Total Respondents} = \frac{\text{Respondents with Doctoral Degrees}}{\text{Total Respondents in the State}} \times \text{Known Total in California}
-\]
+$$
+
 
 where:
 - The numerator is the number of respondents with a doctoral degree in each state.
@@ -118,8 +119,6 @@ The use of Laplace's ratio estimator provides a quick method to estimate populat
 
 ## **Appendix**
 
-The dataset and code used in this analysis are available on [GitHub](https://github.com/yourusername/repository_name).
+The dataset and code used in this analysis are available on [GitHub](https://github.com/DavidFJ207/2022_ACS_Ratio.git).
 
 ---
-
-This Quarto document walks through obtaining the ACS data, using the ratio estimator approach, and comparing estimates to actual counts. Ensure you have saved the ACS dataset correctly and adjust paths as needed. Save this file as `.qmd`, render it to produce a PDF, and push the project to your GitHub repository.
