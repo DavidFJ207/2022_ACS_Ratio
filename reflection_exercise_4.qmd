@@ -90,6 +90,9 @@ print(state_data)
 
 ```{r}
 #| echo: false
+#| fig-cap: "Comparison of Actual vs. Estimated Respondent Totals by State."
+#| fig-align: center
+
 # Calculate the difference between actual and estimated totals
 state_data <- state_data %>%
   mutate(difference = total_count - estimated_total)
