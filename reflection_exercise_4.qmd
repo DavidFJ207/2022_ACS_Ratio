@@ -47,6 +47,7 @@ where:
 ## **4. Data Analysis**
 
 ```{r}
+#| echo: false
 # Load necessary libraries
 library(dplyr)
 library(readr)
@@ -88,6 +89,7 @@ print(state_data)
 ## **5. Comparison to Actual Respondent Totals**
 
 ```{r}
+#| echo: false
 # Calculate the difference between actual and estimated totals
 state_data <- state_data %>%
   mutate(difference = total_count - estimated_total)
