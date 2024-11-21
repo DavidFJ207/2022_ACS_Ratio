@@ -1,4 +1,4 @@
-# 2022_ACS_Ratio
+# ACS 2022 Ratio Estimator Analysis
 
 ## Purpose
 The purpose of this project is to estimate the total number of respondents in each U.S. state using data from the 2022 ACS and the ratio estimator approach. The analysis compares these estimates to the actual respondent counts and explores potential reasons for discrepancies.
