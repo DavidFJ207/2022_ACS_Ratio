@@ -1,6 +1,6 @@
 ---
 title: "Estimating Respondents with Doctoral Degrees Using the 2022 ACS Data"
-author: "Group 38"
+author: "Gadiel Flores, Tina Kim, and Yanfei Huang"
 date: "2024-10-03"
 format:
   pdf:
