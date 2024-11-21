@@ -1,7 +1,8 @@
 ---
 title: "Estimating Respondents with Doctoral Degrees Using the 2022 ACS Data"
 author: "Gadiel Flores, Tina Kim, and Yanfei Huang"
-date: "October 3, 2024"
+date: today
+date-format: long
 abstract: This study aims to estimate the number of respondents with doctoral degrees across different states using the 2022 American Community Survey (ACS) dataset from IPUMS. We employ the Laplace ratio estimator, a statistical method that uses the proportion of respondents with doctoral degrees in California to estimate similar totals for other states. The analysis involves calculating the ratio of doctoral degree holders to total respondents for each state and applying this ratio to estimate state-specific totals. These estimates are then compared with the actual reported numbers. The findings underscore the importance of considering state-specific demographics and educational patterns, as discrepancies between estimated and actual totals highlight potential limitations of generalized estimation techniques. This work contributes to the broader understanding of educational attainment across the U.S. and illustrates the challenges in applying ratio estimators to diverse populations.
 format:
   pdf:
